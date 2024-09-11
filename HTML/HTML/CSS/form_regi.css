@@ -1,0 +1,10 @@
+body{
+    color: black;
+    background: url("bg.jpg");
+}
+fieldset{
+    border: solid 2px red;
+    background-color: rgb(249, 249, 249,0.5);
+    background-size: cover;
+
+}

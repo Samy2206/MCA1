@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="CSS/form_regi.css">
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset style="width: fit-content; margin: 20px auto;">
+        <legend style="font-weight: bold;">Registration Form</legend>
+
+        <fieldset>
+            <legend>Login Details</legend>
+        <label for="username">User Name : </label>
+        <input type="text" placeholder="Enter your username" id="username">
+        
+        <label for="password">Password : </label>
+        <input type="password" id="password" minlength="5" placeholder="Min 5 Characters">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Profile Picture</legend>
+        <label for="profile" style="margin-left: 70px;">Profile Picture : </label>
+        <input type="file" accept="image/*" width="50" height="50" style="margin-left: 5px;">
+        </fieldset>
+        <br><br>  
+        <fieldset>
+            <legend>Personal Details</legend>
+        <label for="contact">Mobile No : </label>
+        <input type="tel" id="contact" pattern="[0-9]{10}" maxlength="10" minlength="10" placeholder="Enter Your Contact">
+        <br><br>
+        <label for="emai">E-mail : </label>
+        <input type="email" id="emai" required placeholder="Enter Your Email">
+        <br><br>
+        <label for="gender">Gender : </label> <br><br>
+        <input type="radio" name="Gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="Gender" id="female" value="female">
+        <label for="female">Female</label>
+        <br><br>
+        <label for="city">Select Your City:</label>
+        <select style="width: 150px;" id="city">
+            <option value="">Select</option>
+            <option value="Pune">Pune</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Nagpur">Nagpur</option>
+            <option value="Akola">Akola</option>
+            <option value="Amravati">Amravati</option>
+        </select>
+        <br><br>
+    </fieldset>
+    <input type="submit" value="submit" tooltip="submit" style="margin-top: 20px;">
+    </form>
+    
+</body>
+</html>
