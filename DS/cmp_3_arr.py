@@ -1,3 +1,5 @@
+#Create three arrays ane check the values from aray if similar print 'Equal Arrays' else print
+#'Not Equal Arrays
 import numpy as np
 arr1=np.array([1,2,3,4])
 arr2=np.array([1,2,3,4])
