@@ -10,7 +10,6 @@ data=arr.array('i',[10,20,30,40])
 # print(data)
 # data.pop(3)
 # print(data)
-
 data1=arr.array('i',[50,60,70,80])
 newdata=arr.array('i')
 newdata=data+data1
