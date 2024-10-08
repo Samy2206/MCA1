@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smiley Face on Canvas</title>
+    <!-- <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+    </style> -->
+</head>
+<body>
+
+<canvas id="smileyCanvas" width="300" height="300"></canvas>
+
+<script>
+    // Get the canvas element and the context
+    var canvas = document.getElementById('smileyCanvas');
+    var ctx = canvas.getContext('2d');
+
+    ctx.strokeStyle="black"
+    ctx.fillStyle="yellow"
+    ctx.arc(150,150,100,0,2*Math.PI)
+    ctx.fill()
+    ctx.stroke()
+
+    ctx.beginPath()
+    ctx.fillStyle="black"
+    ctx.strokeStyle="black"
+    ctx.arc(100,120,15,0,2*Math.PI)
+    ctx.fill()
+    ctx.stroke()
+
+    ctx.beginPath()
+    ctx.fillStyle="black"
+    ctx.strokeStyle="black"
+    ctx.arc(200,120,15,0,2*Math.PI)
+    ctx.fill()
+    ctx.stroke()
+
+    ctx.beginPath()
+    ctx.lineWidth=2
+    ctx.strokeStyle="black"
+    ctx.moveTo(150,120)
+    ctx.lineTo(140,170)
+    ctx.stroke()
+
+    ctx.beginPath()
+    ctx.strokeStyle="black"
+    ctx.moveTo(140,170)
+    ctx.lineTo(160,170)
+    ctx.stroke()
+    
+    ctx.beginPath()
+    ctx.strokeStyle="black"
+    ctx.arc(150,150,70,0.25*Math.PI,0.75*Math.PI)
+    ctx.stroke()
+
+</script>
+
+</body>
+</html>
