@@ -93,13 +93,14 @@ class circlList:
         
 
     def display(self):
-        cNode=self.head
-        while True and cNode!=None:
-            print(cNode.data,end="-->")
-            cNode=cNode.next
-            if cNode == self.head:
-                break
-        print("None")
+        if self.head==None:
+            print("Linked list is empty: ")
+        else:
+            cNode=self.head
+            while cNode.next!=self.head:
+                print(cNode.data,end="-->")
+                cNode=cNode.next
+            print(cNode.data)
 
 
 cl = circlList()
