@@ -1,0 +1,3 @@
+Hello, this is a test file.
+Python exception handling demo.
+Let's see how multiple exceptions are handled.
