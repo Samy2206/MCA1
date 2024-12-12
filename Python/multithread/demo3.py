@@ -14,15 +14,13 @@ def cube(data):
     print(res)
 
 startTime = time.time()
-
 a=[1,2,3,4,5,6]
-
 square(a)
 cube(a)
-
 endTime=time.time()
-
 print("Time: ",endTime-startTime)
+
+
 
 
 # from threading import *
@@ -51,6 +49,8 @@ print("Time: ",endTime-startTime)
 # t1.start()
 # t2.start()
 
+# t1.join()
+# t2.join()
 # endTime=time.time()
 
 # print("Time: ",endTime-startTime)
