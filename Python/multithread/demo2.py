@@ -1,11 +1,13 @@
 from threading import *
+import time
+
 class myThread(Thread):
+    
     def run(self):
         for i in range(5):
-            print("Child thread ",i)
-
-t1 = myThread()
+            print("Child thread")
+            
+t1=myThread()
 t1.start()
-
 for i in range(5):
-    print("Main Thread ",i)
+    print("main thread",i)
