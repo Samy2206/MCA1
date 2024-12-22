@@ -1,40 +1,39 @@
+# data =[]
+# for i in range(5):
+#     temp = input("Enter your data: ")
+#     data.append(temp)
 
-# num=int(input("Enter input: 20"))
+# data = (num for num in input("Enter data").split(','))
 
-# result=lambda x:x*x
-# print(result(num))
-
-
-
-def sqr(num):
-    return(num*2)
-
-
-# a=[1,2,3,4]
-# res=list(map(sqr,a))
-# print(res)
-
-# num=[2,3,4,5,6]
-# def myFuc(x):
-#     if x<3:
-#         return False
-#     else:
-#         return True
+# for i in data:
+#     print(i)
 
 
-# numbers=filter(lambda x:x>3,num)
+
+# for i in range(5):
+#     print("hii")
+# print("Mine")
 
 
-# for x in numbers:
-#     print(x)
+# i=0
+# while i<=11:
+#     print(i)
+#     if i==10:
+#         break
+#     i+=1
 
-# import functools
-# list=[1,2,3,4]
-# print(functools.reduce(lambda x,y:x+y,list))
-def genFun():
-    for i in range(5):
-        yield input("enter name")
-        
-x=genFun()
-for i in x:
-    print(i)
+
+# for i in range(1,11):
+#     print(i)
+#     if i ==10:
+#         break
+
+# str1 = "sammmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm"
+# str2 = " mine"
+# print(str1.count("m"))
+
+#len count upper lower capatilize sum slice
+# import numpy as np
+
+# for i in range(1,11):
+#     print(i,end=",")

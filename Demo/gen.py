@@ -11,8 +11,6 @@ def gen(data):     #3
 
 
 
-
-
 data=[3,5,67,8,965,5] #1
 
 res = gen(data) #2
