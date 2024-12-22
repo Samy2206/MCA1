@@ -31,3 +31,28 @@
 #homework
 #use in reduce . map and filter using lambda function
 
+
+
+#exception handling
+
+# try:
+#     num = 10/0
+# except Exception as e:
+#     print(e)
+# finally:
+#     print("Code is executed")
+
+
+try:
+    age = int(input("Enter your age"))
+except ValueError as e:
+    print(e)
+except Exception as e:
+    print(e)
+else:
+    if age>=18:
+        print("Eligible for voting")
+    else:
+        print("Not eligible for voting")
+finally:
+    print("Exection successful")

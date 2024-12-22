@@ -70,28 +70,43 @@ data = {'name':'Avani',
 # print(res)
 
 
-data = [1,2,3,4]   #create a list
-print(data)
-data.append(5)
-data.append(6)
-print(data)     #append
+# data = [1,2,3,4]   #create a list
+# print(data)
+# data.append(5)
+# data.append(6)
+# print(data)     #append
 
-list2 = [7,8,9,10]
-data.extend(list2)
-print(data)
+# list2 = [7,8,9,10]
+# data.extend(list2)
+# print(data)
 
-data[4]=100
-print(data)         #update
+# data[4]=100
+# print(data)         #update
 
-data.insert(4,200)
-print(data)         #insert
+# data.insert(4,200)
+# print(data)         #insert
 
-print(data.pop())
-print(data)
+# print(data.pop())
+# print(data)
 
-data.remove(1)         #remove
-print(data)
+# data.remove(1)         #remove
+# print(data)
 
-print(len(data))          #length
+# print(len(data))          #length
 
-print(data.count(4))
+# print(data.count(4))
+
+# write a program to take input from user to square a number and check different exceptions
+
+try:
+    num=int(input("Enter your input: "))
+except ValueError as e:
+    print(e)
+except TypeError as e:
+    print(e)
+except Exception as e:
+    print(e)
+else:
+    print(num*num)
+finally:
+    print("Execution completed")
