@@ -43,16 +43,18 @@
 #     print("Code is executed")
 
 
-try:
-    age = int(input("Enter your age"))
-except ValueError as e:
-    print(e)
-except Exception as e:
-    print(e)
-else:
-    if age>=18:
-        print("Eligible for voting")
-    else:
-        print("Not eligible for voting")
-finally:
-    print("Exection successful")
+# try:
+#     age = int(input("Enter your age"))
+# except ValueError as e:
+#     print(e)
+# except Exception as e:
+#     print(e)
+# else:
+#     if age>=18:
+#         print("Eligible for voting")
+#     else:
+#         print("Not eligible for voting")
+# finally:
+#     print("Exection successful") 
+
+
