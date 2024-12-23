@@ -1,1 +1,2 @@
- # l.acquire()
+for i in range(10):
+#     print("main Thread")

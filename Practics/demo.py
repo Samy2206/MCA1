@@ -387,3 +387,34 @@ import re
 #      print("Not matched")
 
 #sanket_.-%+@gmail.com      {2,}
+
+#condition for password
+#min 8 digit
+#atleast one uppercase 
+#atleast one lowercase
+#atleast one special character
+
+#important for 5 marks
+import re
+# pattern = r"^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[@#$%?_])[a-zA-Z\d@#$%?_]{8,}$"
+# res=input("Enter your password: ")
+# a=re.match(pattern,res)
+# if a!=None:
+#     print("Matched")
+# else:
+#     print("Not matched")
+
+# class Password:
+#     def match(self,res):
+#         pattern = r"^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[@#$%?_])[a-zA-Z\d@#$%?_]{8,}$"
+#         a=re.match(pattern,res)
+#         return a
+    
+# password = input("Enter your password: ")
+# p = Password()
+# if p.match(password):
+#     print("Password is matched")
+# else:
+#     print("Password is invalid")
+
+
